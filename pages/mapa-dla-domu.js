@@ -3,7 +3,7 @@ import { initializeApp } from 'firebase/app'
 import { getFirestore, doc, getDoc } from 'firebase/firestore'
 import Consultant from '../components/Consultant'
 import styled from 'styled-components'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 export default function MapaDlaDomu({ powiats, consultants }) {
   const [currPowiat, setCurrPowiat] = useState(null)

@@ -47,7 +47,7 @@ const CustomArrow = styled.div`
   top: 50%;
   right: 4px;
   transform: translateY(-50%);
-  background: white;
+  background: transparent;
   position: absolute;
   pointer-events: none;
 
