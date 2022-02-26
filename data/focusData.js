@@ -1,0 +1,18 @@
+export const focusData = {
+  dolnośląskie: { coords: { lat: 51, lng: 16.2 }, zoom: 7.8 },
+  'kujawsko-pomorskie': { coords: { lat: 53, lng: 18.5 }, zoom: 7.7 },
+  lubelskie: { coords: { lat: 51.25, lng: 23 }, zoom: 7.7 },
+  lubuskie: { coords: { lat: 52.25, lng: 15.3 }, zoom: 7.7 },
+  łódzkie: { coords: { lat: 51.6, lng: 19.3 }, zoom: 8 },
+  małopolskie: { coords: { lat: 50, lng: 20.3 }, zoom: 8 },
+  mazowieckie: { coords: { lat: 52.2, lng: 21 }, zoom: 7.3 },
+  opolskie: { coords: { lat: 50.7, lng: 17.9 }, zoom: 8.2 },
+  podkarpackie: { coords: { lat: 49.8, lng: 22.3 }, zoom: 7.7 },
+  podlaskie: { coords: { lat: 53.4, lng: 22.9 }, zoom: 7.5 },
+  pomorskie: { coords: { lat: 54.1, lng: 18.1 }, zoom: 7.7 },
+  śląskie: { coords: { lat: 50.3, lng: 19 }, zoom: 8 },
+  świętokrzyskie: { coords: { lat: 50.7, lng: 20.7 }, zoom: 8 },
+  'warmińsko-mazurskie': { coords: { lat: 54, lng: 21 }, zoom: 7.5 },
+  wielkopolskie: { coords: { lat: 52.5, lng: 17.5 }, zoom: 7.2 },
+  zachodniopomorskie: { coords: { lat: 53.8, lng: 15.1 }, zoom: 7.2 },
+}
