@@ -51,4 +51,8 @@ const TopWrapper = styled.div`
   span {
     font-weight: bold;
   }
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `
