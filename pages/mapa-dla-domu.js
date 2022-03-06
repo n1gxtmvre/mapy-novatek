@@ -62,4 +62,8 @@ const MainWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `

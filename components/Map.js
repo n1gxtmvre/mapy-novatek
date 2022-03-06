@@ -34,7 +34,9 @@ export default function Map({
           handleChange={(e) => setCurrWojewodztwo(e.target.value)}
         />
       </TopWrapper>
-      <div ref={mapWrapperRef} style={{ width: 500, height: 500 }}></div>
+      {currWojewodztwo && (
+        <div ref={mapWrapperRef} style={{ width: 500, height: 500 }}></div>
+      )}
     </div>
   )
 }
@@ -45,6 +47,7 @@ const TopWrapper = styled.div`
   align-items: center;
   max-width: 500px;
   padding: 1em;
+  gap: 1rem;
   span {
     font-weight: bold;
   }

@@ -80,6 +80,11 @@ const MainWrapper = styled.div`
   align-items: start;
   gap: 1rem;
   height: 100vh;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 const ConsultantWrapper = styled.div`
